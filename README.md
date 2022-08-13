@@ -29,3 +29,8 @@ References:
 Getting configuration from file: https://hackersandslackers.com/configure-flask-applications/
 Answer to Why blueprint is necessary with flask_restful: https://stackoverflow.com/questions/62200557/what-is-the-benefit-of-using-blueprint-in-flask-restful
 ```
+
+To run the application :
+```buildoutcfg
+flask --app application run
+```
