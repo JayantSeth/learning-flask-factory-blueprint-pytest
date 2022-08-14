@@ -37,7 +37,7 @@ def test_delete_author(client, new_author, new_user, login_request, headers):
     access_token = login_resp.json["access_token"]
     headers["Authorization"] = f"Bearer {access_token}"
     response = client.delete(f"/api/author/{new_author.name}", headers=headers)
-    assert response.status_code == 500
+    assert response.status_code == 401
     login_resp = client.post(f"/auth/signin", data=json.dumps({"username": new_user.username,
                                                                "password": "test"}), headers=fresh_headers)
     assert login_resp.status_code == 200
