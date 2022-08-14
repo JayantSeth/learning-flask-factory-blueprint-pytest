@@ -31,6 +31,8 @@ Answer to Why blueprint is necessary with flask_restful: https://stackoverflow.c
 Testing: https://testdriven.io/blog/flask-pytest/
 Testing: https://stackoverflow.com/questions/45703591/how-to-send-post-data-to-flask-using-pytest-flask
 Testing: https://pytest-flask.readthedocs.io/en/latest/tutorial.html
+https://github.com/vimalloc/flask-jwt-extended/issues/308
+
 ```
 
 To run the application :
