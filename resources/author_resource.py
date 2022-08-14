@@ -2,6 +2,7 @@ from models.author import Author
 from flask_restful import Resource
 from flask import request
 from flask_jwt_extended import jwt_required
+from flask_jwt_extended.exceptions import FreshTokenRequired
 
 
 class AuthorsResource(Resource):
@@ -63,5 +64,7 @@ class AuthorResource(Resource):
                 return {"message": f"Author: {name} does not exist in database"}, 404
             author.delete_from_db()
             return {"message": f"Author: {name} deleted from database"}
+        except FreshTokenRequired:
+            return {"message": "Fresh token required"}, 400
         except BaseException as e:
             return {"message": f"Error: {e}"}, 500

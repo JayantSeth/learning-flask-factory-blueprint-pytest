@@ -1,7 +1,8 @@
 Flask
 Flask-SQLAlchemy
 flask_restful
-pytest
 python-dotenv
 bcrypt
 Flask-JWT-Extended
+pytest-flask
+pytest

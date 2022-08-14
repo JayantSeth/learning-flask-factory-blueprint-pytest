@@ -22,3 +22,8 @@ class ProdConfig:
 class DevConfig:
     SQLALCHEMY_DATABASE_URI = 'sqlite:///dev_data.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+
+
+class TestConfig:
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///test_data.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False

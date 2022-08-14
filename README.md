@@ -28,9 +28,18 @@ References:
 ```buildoutcfg
 Getting configuration from file: https://hackersandslackers.com/configure-flask-applications/
 Answer to Why blueprint is necessary with flask_restful: https://stackoverflow.com/questions/62200557/what-is-the-benefit-of-using-blueprint-in-flask-restful
+Testing: https://testdriven.io/blog/flask-pytest/
+Testing: https://stackoverflow.com/questions/45703591/how-to-send-post-data-to-flask-using-pytest-flask
+Testing: https://pytest-flask.readthedocs.io/en/latest/tutorial.html
 ```
 
 To run the application :
 ```buildoutcfg
 flask --app application run
+```
+
+
+To run the tests :
+```buildoutcfg
+pytest --no-header -v
 ```
