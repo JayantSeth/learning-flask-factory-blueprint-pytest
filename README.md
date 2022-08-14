@@ -1,14 +1,14 @@
 # Learning Flask Blueprint Factory Pytest
 
-I have taken Relations RDBMs app as the base for this app, 
-I am using this app for learning following:
+I have learned following concept in this app:
 1. Blueprint
-2. Factory
-3. Pytest
+2. Application Factory
+3. Testing: pytest
+
 Minor stuffs:
    1. Loading config from python file and object.
 
-I will practice following two skills:
+I have practiced following two skills:
 1. JWT Based Authentication.
 2. One to Many Association
 
@@ -33,6 +33,11 @@ Testing: https://stackoverflow.com/questions/45703591/how-to-send-post-data-to-f
 Testing: https://pytest-flask.readthedocs.io/en/latest/tutorial.html
 https://github.com/vimalloc/flask-jwt-extended/issues/308
 
+```
+
+To Install Dependencies:
+```buildoutcfg
+pip install -r requirements.txt
 ```
 
 To run the application :
