@@ -12,6 +12,7 @@ class Config:
     JWT_AUTH_PASSWORD_KEY = "password"
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(minutes=10)
     JWT_REFRESH_TOKEN_EXPIRES = timedelta(days=30)
+    PROPAGATE_EXCEPTIONS = True
 
 
 class ProdConfig:
